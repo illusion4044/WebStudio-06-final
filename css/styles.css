@@ -39,7 +39,7 @@ img{
 }
 
 .container {
-width: 1158px;
+width: 318px;
 padding: 0 15px;
 margin: 0 auto;
 }
@@ -279,7 +279,7 @@ margin-bottom: 8px;
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
-/* Hide visually but still accessible text */
+
 .visually-hidden {
     position: absolute;
     width: 1px;
@@ -296,7 +296,8 @@ margin-bottom: 8px;
     background-color: #F4F4FD;
     display: flex;
     justify-content: center;
-    padding: 120px 0;
+    /*padding: 120px 0;*/
+    padding: 96px;
 }
 
 .ourteam-header {
@@ -314,7 +315,6 @@ margin-bottom: 8px;
     list-style: none;
     margin: 0;
     padding: 0;
-    display: flex;
     flex-wrap: wrap;
     gap: 24px;
     justify-content: center;
@@ -331,9 +331,12 @@ margin-bottom: 8px;
     display: block;
     max-width: 100%;
     height: auto;
+    margin: 0 auto;
 }
 .employee-container {
-    padding: 32px 0;
+    /*padding: 32px 0;*/
+    padding: 28px 0;
+    margin-bottom: 72px;
 }
 
 .ourteam-names {
@@ -356,6 +359,7 @@ margin-bottom: 8px;
 }
 
 .social-icons-container{
+    padding-top: 8px;
     display: flex;
     gap: 24px;
     justify-content: center; 
@@ -387,10 +391,12 @@ margin-bottom: 8px;
     fill: #f4f4fd;
     justify-content: center;
     
+    
 }
 
 .employee-list li.first-member {
-    width: calc((100% - 72px) / 4);
+    /*width: calc((100% - 72px) / 4);*/
+    width: 100%;
 }
 
 .employee-list li.first-member .team-member {
@@ -894,4 +900,52 @@ text-decoration-line: underline;
 
 .privacy-label{
     color: #4d5ae5;;
+}
+
+@media screen and (min-width: 768px) {
+    .container {
+        max-width: 736px;
+        }
+
+        .social-icons-container{
+            padding-top: 8px;
+            display: flex;
+            gap: 24px;
+            justify-content: center; 
+        }
+        .employee-list {
+            flex-wrap: wrap;
+            gap: 24px;
+            display: flex;
+            
+        }
+        .employee-list li.first-member {
+            width: calc((100% - 24px) / 2);
+            
+        }
+        .employee-container {
+            margin-bottom: 96px;
+            
+        }
+        
+}
+
+@media screen and (min-width: 1440px) {
+
+.container{
+    max-width: 1158px;
+}
+
+    .background-section{
+        padding: 120px 0;
+    }
+
+    .employee-container {
+        padding: 32px 0;
+        display: flex;
+    }
+
+    .employee-list li.first-member {
+        width: calc((100% - 72px) / 4);
+    }
 }
