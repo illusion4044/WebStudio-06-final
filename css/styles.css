@@ -39,7 +39,7 @@ img{
 }
 
 .container {
-width: 318px;
+max-width: 320px;
 padding: 0 15px;
 margin: 0 auto;
 }
@@ -291,7 +291,7 @@ margin-bottom: 8px;
     border: 0;
 }
 
-/* SECTION3 */
+/*--------------- SECTION3--------------- */
 .background-section {
     background-color: #F4F4FD;
     display: flex;
@@ -904,7 +904,7 @@ text-decoration-line: underline;
 
 @media screen and (min-width: 768px) {
     .container {
-        max-width: 736px;
+        max-width: 584px;
         }
 
         .social-icons-container{
@@ -924,16 +924,29 @@ text-decoration-line: underline;
             
         }
         .employee-container {
-            margin-bottom: 96px;
+            padding: 28px 0;
+            text-align: center;
             
         }
         
+        
 }
 
-@media screen and (min-width: 1440px) {
-
+@media screen and (min-width: 1158px) {
 .container{
     max-width: 1158px;
+    padding: 0 15px;
+    
+}
+
+
+.employee-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    flex-wrap: wrap;
+    gap: 24px;
+    justify-content: center;
 }
 
     .background-section{
@@ -942,7 +955,14 @@ text-decoration-line: underline;
 
     .employee-container {
         padding: 32px 0;
+        
+    }
+
+    .social-icons-container{
+        padding-top: 8px;
         display: flex;
+        gap: 24px;
+        justify-content: center; 
     }
 
     .employee-list li.first-member {
