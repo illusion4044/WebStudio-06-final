@@ -166,27 +166,28 @@ transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     margin: 0 auto;
     padding: 188px 0;
     background: linear-gradient(var(--GREY, rgba(46, 47, 66, 0.70)), var(--GREY, rgba(46, 47, 66, 0.70))),
-    url(../images/people-office.jpg);
+    url(../images/people-office-mob.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     max-width: 1440px;
     
 }
-
-
-
 .main-words {
 color: #FFF;
 font-family: Roboto;
-font-size: 56px;
+/* font-size: 56px; */
+font-size: 36px;
 font-weight: 700;
-line-height: 1.07;
+/* line-height: 1.07; */
+line-height: 1.1;
 letter-spacing: 0.02em;
 text-align: center;
-margin-bottom: 48px;
-max-width: 496px;
+/* margin-bottom: 48px; */
+margin-bottom: 72px;
+max-width: 288px;
 margin: 0  auto;
+padding: 72px 16px 72px 16px;
 }
 .main-button {
     color: #ffffff;
@@ -450,10 +451,11 @@ width: 100%;
 }
 
 .list-app {
-    display: flex;
+    /* display: flex; */
     flex-wrap: wrap;
     column-gap: 24px;
     row-gap: 48px;
+    
 }
 
 .app-card {
@@ -906,21 +908,58 @@ text-decoration-line: underline;
 .privacy-label{
     color: #4d5ae5;;
 }
-/*--------------------SECTION-TABLET-------------------*/
+/*--------------------MEDIA-TABLET-------------------*/
 @media screen and (min-width: 768px) {
     .container {
         max-width: 584px;
         }
+/*--------------------SECTION1-------------------*/
+
+.hero{
+    background-color: #2E2F42;
+    margin: 0 auto;
+    padding: 188px 0;
+    background: linear-gradient(var(--GREY, rgba(46, 47, 66, 0.70)), 
+    var(--GREY, rgba(46, 47, 66, 0.70))),
+    url(../images/people-office-tab.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+    
+}
+
+.main-words {
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    text-align: center;
+    margin-bottom: 36px;
+    max-width: 496px;
+    margin: 0  auto;
+    }
+
 /*--------------------SECTION2-------------------*/
 .list {
+    flex-wrap: wrap;
     display: flex;
     gap: 24px;
 }
 .sectiontwo-list {
     width: calc((100% - 24px) / 2);
-
 }
-
+.approaches{
+    color:  #2E2F42;
+text-align: center;
+font-family: Roboto;
+font-size: 36px;
+font-weight: 700;
+line-height: 1.1;
+letter-spacing: 0.02em;
+}
 
 /*--------------------SECTION3-------------------*/
         .social-icons-container{
@@ -947,12 +986,39 @@ text-decoration-line: underline;
         
         
 }
-/*--------------------SECTION-LAPTOP-------------------*/
+/*--------------------MEDIA-LAPTOP-------------------*/
 @media screen and (min-width: 1158px) {
 .container{
     max-width: 1158px;
     padding: 0 15px;
 }
+/*--------------------SECTION1-------------------*/
+.hero{
+    background-color: #2E2F42;
+    margin: 0 auto;
+    padding: 188px 0;
+    background: linear-gradient(var(--GREY, rgba(46, 47, 66, 0.70)), 
+    var(--GREY, rgba(46, 47, 66, 0.70))),
+    url(../images/people-office.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+    
+}
+.main-words {
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    text-align: center;
+    margin-bottom: 48px;
+    max-width: 496px;
+    margin: 0  auto;
+    }
+
 /*--------------------SECTION2-------------------*/
 .scone-container{
     display: flex;
@@ -967,11 +1033,20 @@ text-decoration-line: underline;
     margin-bottom: 8px;
     }
     .list {
+        flex-wrap: nowrap;
         display: flex;
         gap: 24px;
     }
-
-
+    .approaches{
+        color:  #2E2F42;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    }
+    
 /*--------------------SECTION3-------------------*/
 .employee-list {
     list-style: none;
