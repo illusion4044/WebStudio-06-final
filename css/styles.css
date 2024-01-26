@@ -462,7 +462,7 @@ width: 100%;
 .app-card {
     border: 1px solid #E7E9FC;
     background: #FFF;
-    width: calc((100% - 48px) / 3);
+    /* width: calc((100% - 48px) / 3); */
     position: relative;
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
     transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -912,7 +912,7 @@ text-decoration-line: underline;
 /*--------------------MEDIA-TABLET-------------------*/
 @media screen and (min-width: 768px) {
     .container {
-        max-width: 584px;
+        max-width: 768px;
         }
 /*--------------------SECTION1-------------------*/
 
@@ -984,7 +984,9 @@ letter-spacing: 0.02em;
             text-align: center;
             
         }
+        
 /*--------------------SECTION4-------------------*/
+
 .app-card {
     width: calc((100% - 24px) / 2);
 }
