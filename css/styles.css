@@ -34,13 +34,21 @@ address {
 font-style: normal;
 }
 
+.open-menu-btn{
+    padding: 0;
+    line-height: 0;
+    border-color: transparent;
+    cursor: pointer;
+    border: none;
+}
+
 img{
     display: block;
 }
 
 .container {
 max-width: 320px;
-padding: 0 15px;
+padding: 0 16px;
 margin: 0 auto;
 }
 
@@ -78,12 +86,14 @@ text-decoration: none;
 }
 
 .nav-list{
-    display: flex;
-    gap: 40px;
+    /* display: flex; */
+    display: none;
+    /* gap: 40px; */
 }
 
 .adress-list{
-    display: flex;
+    /* display: flex; */
+    display: none;
     gap: 40px;
 }
 
@@ -101,6 +111,7 @@ line-height: 1.17;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 margin-right: 76px;
+padding: 17px 0;
 }
 .logo-part {
     color: #2E2F42;
