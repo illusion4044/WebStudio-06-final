@@ -79,6 +79,8 @@ text-decoration: none;
 .header-container{
     display: flex;
     align-items: center;
+
+    justify-content: space-between;
 }
 
 .navigation{
@@ -111,7 +113,7 @@ font-weight: 700;
 line-height: 1.17;
 letter-spacing: 0.03em;
 text-transform: uppercase;
-margin-right: 76px;
+/* margin-right: 76px; */
 padding: 17px 0;
 }
 .logo-part {
@@ -926,6 +928,78 @@ text-decoration-line: underline;
     .container {
         max-width: 768px;
         }
+/*--------------------HEADER-------------------*/
+.nav-list{
+    display: flex;
+    gap: 40px;
+}
+.adress-list{
+    display: block;
+    
+}
+
+.adress-list{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.open-menu-btn{
+    display: none;
+}
+
+.logo{
+    margin-right: 120px;
+}
+.nav-link {
+    color:  #2E2F42;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    padding: 24px 0;
+    display: block;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    }
+    
+    .nav-link:hover,
+    .nav-link:focus{
+        color: #404BBF;
+    }
+    
+    .current{
+    position: relative;
+    color: #404BBF;
+    }
+    
+    .current::after{
+        content: "";
+        border-radius: 2px;
+        left: 0;
+        bottom: -1px;
+        background-color:  #404BBF;
+        height: 4px;
+        width: 100%;
+        position: absolute;
+    }
+    .adress-link {
+        color:  #434455;
+        font-family: Roboto;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 1.16;
+        letter-spacing: 0.02em;
+        display: flex;
+        gap: 40px;
+        transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+        }
+        
+        .address-link:hover,
+        .address-link:focus{
+            color: #404BBF;
+        }
+
 /*--------------------SECTION1-------------------*/
 
 .hero{
@@ -1018,6 +1092,19 @@ letter-spacing: 0.02em;
 .container{
     max-width: 1158px;
     padding: 0 15px;
+}
+
+/*--------------------HEADER-------------------*/
+.logo{
+    margin-left: 76px;
+}
+.adress-list{
+flex-direction: row;
+gap: 40px;
+}
+.adress-link{
+    font-size: 16px;
+    line-height: 1.5;
 }
 /*--------------------SECTION1-------------------*/
 .hero{
