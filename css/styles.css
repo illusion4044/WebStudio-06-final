@@ -1436,9 +1436,21 @@ margin-bottom: 16px;
 
 }
 .mob-close-btn {
-    display: block;
-    margin-left: auto;
-    margin-bottom: 24px;
+    position: absolute;
+    top: 24px;
+    right: 24px;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    padding: 0;
+    cursor: pointer;
+    border: 1px solid rgba(0, 0, 0, 0.10);
+    background-color: #e7e9fc;
+    border-color: #0000001A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .modal-close-icon {
     width: 24px;
