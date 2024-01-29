@@ -40,7 +40,7 @@ font-style: normal;
     border-color: transparent;
     cursor: pointer;
     border: none;
-    
+    background-color: transparent;
 }
 
 img{
@@ -185,6 +185,8 @@ transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     background-position: center;
     background-size: cover;
     max-width: 1440px;
+    padding-top: 72px;
+    padding-bottom: 72px;
     
 }
 .main-words {
@@ -199,9 +201,10 @@ letter-spacing: 0.02em;
 text-align: center;
 /* margin-bottom: 48px; */
 margin-bottom: 72px;
-max-width: 288px;
+max-width: 216px;
 margin: 0  auto;
-padding: 72px 16px 72px 16px;
+/* padding: 72px 16px 72px 16px; */
+margin-bottom: 72px;
 }
 .main-button {
     color: #ffffff;
@@ -236,7 +239,8 @@ background:  #404BBF;
 
 /*--------------------SECTION2-------------------*/
 .hero-sctwo {
-    padding: 120px 0;
+    /* padding: 120px 0; */
+    padding: 96px 0;
 }
 .list {
     /*display: flex;*/
@@ -294,9 +298,14 @@ margin-bottom: 8px;
 .paragraph-words {
     color: #434455;
     font-size: 16px;
-    font-weight: 400;
+    /* font-weight: 400; */
+    font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    margin-bottom: 72px;
+}
+
+.sectiontwo-list{
     margin-bottom: 72px;
 }
 
@@ -317,7 +326,7 @@ margin-bottom: 8px;
     display: flex;
     justify-content: center;
     /*padding: 120px 0;*/
-    padding: 96px;
+    padding: 96px 0;
 }
 
 .ourteam-header {
@@ -345,6 +354,7 @@ margin-bottom: 8px;
     box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
     text-align: center;
     border-radius: 0px 0px 4px 4px;
+    margin-bottom: 72px;
 
 }
 .photo-team {
@@ -356,7 +366,7 @@ margin-bottom: 8px;
 .employee-container {
     /*padding: 32px 0;*/
     padding: 28px 0;
-    margin-bottom: 72px;
+    
 }
 
 .ourteam-names {
@@ -434,7 +444,7 @@ margin-bottom: 8px;
     padding-top: 32px;
     padding-bottom: 32px;
     border:none;
-    margin-left: 16px;
+    padding-left: 16px ;
     
 }
 
@@ -480,6 +490,7 @@ width: 100%;
     position: relative;
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
     transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    margin-bottom: 48px;
 }
 
 .app-card:hover .app-cover-text{
@@ -1093,7 +1104,8 @@ text-decoration-line: underline;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    
+    padding-top: 112px;
+    padding-bottom: 112px;
     
 }
 
@@ -1112,7 +1124,7 @@ text-decoration-line: underline;
 
 /*--------------------SECTION2-------------------*/
 .list {
-    flex-wrap: wrap;
+    
     display: flex;
     gap: 24px;
 }
@@ -1121,7 +1133,6 @@ text-decoration-line: underline;
 }
 .approaches{
     color:  #2E2F42;
-text-align: center;
 font-family: Roboto;
 font-size: 36px;
 font-weight: 700;
@@ -1144,13 +1155,29 @@ letter-spacing: 0.02em;
         }
         .employee-list li.first-member {
             width: calc((100% - 24px) / 2);
-            
+            width: 264px;
+        }
+        .photo-team {
+            display: block;
+            max-width: 264px;
+            height: auto;
+            margin: 0 auto;
+        }
+        .team-member {
+            background-color: #FFFFFF;
+            border-radius: 4px;
+            box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+            text-align: center;
+            border-radius: 0px 0px 4px 4px;
+            width: 264px;
+        
         }
         .employee-container {
             padding: 28px 0;
             text-align: center;
             
         }
+        
         
 /*--------------------SECTION4-------------------*/
 
@@ -1366,6 +1393,7 @@ gap: 40px;
     padding: 100px 0;
     flex-shrink: 0;
 }
+
 .footer-container{
     width: 1158px; 
     margin: 0 auto; 
@@ -1461,10 +1489,12 @@ margin-bottom: 16px;
     cursor: pointer
     }
     .footer-form {
-        /* display: flex; */
+        display: flex; 
         gap: 24px;
     }
-    
+    .footer-subscribe {
+        margin-left: 80px;
+    }
 }
 /*--------------------MODAL-------------------*/   
 .modal {
@@ -1514,8 +1544,8 @@ margin-bottom: 16px;
 
 
 .scthree-svg{
-    width: 24px;
-    height: 24px;
+    /* width: 24px; */
+    /* height: 24px; */
 }
 .mob-menu {
     visibility: hidden;
