@@ -231,6 +231,7 @@ font-size: 16px;
 font-weight: 500;
 line-height: 1.5;
 letter-spacing: 0.04em;
+
 }
 .main-button:hover,
 .main-button:focus{
@@ -1046,6 +1047,8 @@ text-decoration-line: underline;
         .address-link:focus{
             color: #404BBF;
         }
+
+
         /*--------------------MODAL-------------------*/
         .backdrop {
             position: fixed;
@@ -1124,7 +1127,7 @@ text-decoration-line: underline;
 
 /*--------------------SECTION2-------------------*/
 .list {
-    
+    flex-wrap: wrap;
     display: flex;
     gap: 24px;
 }
@@ -1139,7 +1142,18 @@ font-weight: 700;
 line-height: 1.1;
 letter-spacing: 0.02em;
 }
-
+.approach-words {
+    color: #434455;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    min-width: 356px;
+    height: 72px;
+    
+}
 /*--------------------SECTION3-------------------*/
         .social-icons-container{
             padding-top: 8px;
@@ -1194,6 +1208,7 @@ letter-spacing: 0.02em;
     width: 356px;
 }
 /*--------------------SECTION-FOOTER-------------------*/   
+
 .footer-container{
     /* width: 1158px; */
     /* width: 320px; */
@@ -1250,7 +1265,7 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 margin-bottom: 16px;
 /* margin-left: 112px; */
-justify-content: center;
+justify-content: flex-start;
 }
 .soc-media-paragraph{
     font-weight: 500;
@@ -1261,10 +1276,40 @@ justify-content: center;
     margin-bottom: 16px;
 }
 .footer-subscribe {
-    /* display: flex; */
+    display: flex; 
+    flex-wrap: wrap;
     /* flex-direction: column; */
     /* margin-left: 80px; */
-    align-items: center;
+    align-items: flex-start;
+    
+}
+.footer-subscribe-button{
+    margin: 0 auto;
+    /* min-width: 165px; */
+    height: 40px;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    display: flex;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+padding: 8px 24px;
+justify-content: center;
+align-items: center;
+gap: 16px;
+border-radius: 4px;
+border: none; 
+background-color: #4D5AE5;
+color: #FFFFFF;
+transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+/* margin-left: 16px; */
+cursor: pointer
+}
+.footer-form{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    flex-direction: column;
 }
 }
 /*--------------------MEDIA-LAPTOP-------------------*/
@@ -1444,6 +1489,7 @@ font-weight: 500;
 line-height: 1.5;
 letter-spacing: 0.02em;
 margin-bottom: 16px;
+
 }
 /*--------------------SECTION-FOOTER-SUBSCRIBE-------------------*/  
 .footer-input {
