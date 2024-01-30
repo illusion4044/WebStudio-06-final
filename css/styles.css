@@ -356,6 +356,7 @@ margin-bottom: 8px;
     text-align: center;
     border-radius: 0px 0px 4px 4px;
     margin-bottom: 72px;
+    
 
 }
 .photo-team {
@@ -394,6 +395,7 @@ margin-bottom: 8px;
     display: flex;
     gap: 24px;
     justify-content: center; 
+    
 }
 
 .item{
@@ -410,6 +412,7 @@ margin-bottom: 8px;
     align-items: center;
     justify-content: center;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1); 
+    
 }
 
 .link:hover,
@@ -552,7 +555,7 @@ width: 100%;
 
 .logo-paragraph{
     /* margin-right: 120px */
-margin-bottom: 72px;
+/* margin-bottom: 72px; */
 }
 
 .logo-footer{
@@ -594,7 +597,7 @@ letter-spacing: 0.02em;
 /* max-width: 264px; */
 min-width: 288px;
 height: 72px;
-margin-bottom: 72px;
+/* margin-bottom: 72px; */
 }
 
 .soc-subscribe-text{
@@ -606,7 +609,7 @@ margin-bottom: 72px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     margin-bottom: 16px;
-    margin-top: 72px;
+    /* margin-top: 72px; */
     
 }
 
@@ -1197,6 +1200,11 @@ letter-spacing: 0.02em;
 
 .app-card {
     width: calc((100% - 24px) / 2);
+    border: 1px solid #E7E9FC;
+    background: #FFF;
+    position: relative;
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .list-app {
     display: flex; 
@@ -1214,10 +1222,13 @@ letter-spacing: 0.02em;
     /* width: 320px; */
     /* margin: 0 auto; */
     display: flex; 
-    align-items: baseline 
+    align-items: baseline ;
+    flex-wrap: wrap;
+    gap: 72px 24px;
 }
 .logo-paragraph{
     /* margin-right: 120px */
+    
 
 }
 .logo-footer{
@@ -1231,8 +1242,9 @@ text-transform: uppercase;
 display: inline-block;
 /* display: flex; */
 max-width: 264px;
-margin-left: 108px; 
+/* margin-left: 108px;  */
 margin-bottom: 17px;
+
 }
 .logo-white{
     color: #F4F4FD;
@@ -1253,8 +1265,8 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 max-width: 264px; 
 height: 72px;
-margin-bottom: 72px;
-margin-left: 108px;
+/* margin-bottom: 72px; */
+/* margin-left: 108px; */
 }
 .soc-media-text{
 color:  #FFF;
@@ -1273,7 +1285,7 @@ justify-content: flex-start;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #FFFFFF;
-    margin-bottom: 16px;
+    /* margin-bottom: 16px; */
 }
 .footer-subscribe {
     display: flex; 
