@@ -258,6 +258,7 @@ font-size: 36px;
 font-weight: 700;
 line-height: 1.1;
 letter-spacing: 0.02em;
+
 }
 .approach-words {
     color: #2E2F42;
@@ -285,8 +286,9 @@ margin-bottom: 8px;
 .approaches {
     /* font-size: 20px; */
     font-size: 36px;
-    font-weight: 500;
+    font-weight: 700;
     margin-bottom: 8px;
+
 }
 .approach-words {
     font-size: 36px;
@@ -303,7 +305,7 @@ margin-bottom: 8px;
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    margin-bottom: 72px;
+    
 }
 
 .sectiontwo-list{
@@ -327,7 +329,7 @@ margin-bottom: 8px;
     display: flex;
     justify-content: center;
     /*padding: 120px 0;*/
-    padding: 96px 0;
+    
 }
 
 .ourteam-header {
@@ -474,8 +476,8 @@ width: 100%;
 }
 
 .section-four {
-    padding-top: 120px;
-    padding-bottom: 120px;
+    padding-top: 96px;
+    padding-bottom: 96px;
     
 }
 
@@ -1000,7 +1002,7 @@ text-decoration-line: underline;
 }
 
 .logo{
-    margin-right: 120px;
+    margin-right: 120px; 
 }
 .nav-link {
     color:  #2E2F42;
@@ -1037,7 +1039,7 @@ text-decoration-line: underline;
     .adress-link {
         color:  #434455;
         font-family: Roboto;
-        font-size: 16px;
+        font-size: 12px;
         font-weight: 400;
         line-height: 1.16;
         letter-spacing: 0.02em;
@@ -1144,6 +1146,8 @@ font-size: 36px;
 font-weight: 700;
 line-height: 1.1;
 letter-spacing: 0.02em;
+text-align: left;
+
 }
 .approach-words {
     color: #434455;
@@ -1157,6 +1161,7 @@ letter-spacing: 0.02em;
     height: 72px;
     
 }
+
 /*--------------------SECTION3-------------------*/
         .social-icons-container{
             padding-top: 8px;
@@ -1205,15 +1210,18 @@ letter-spacing: 0.02em;
     position: relative;
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
     transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    
 }
 .list-app {
     display: flex; 
     flex-wrap: wrap;
     column-gap: 24px;
-    row-gap: 48px;
+    
 }
 .paragraph-secfour{
     width: 356px;
+}
+
 }
 /*--------------------SECTION-FOOTER-------------------*/   
 
@@ -1223,7 +1231,7 @@ letter-spacing: 0.02em;
     /* margin: 0 auto; */
     display: flex; 
     align-items: baseline ;
-     /* flex-wrap: wrap;  */
+    flex-wrap: wrap;  
     gap: 72px 24px;
 }
 .logo-paragraph{
@@ -1317,11 +1325,11 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 /* margin-left: 16px; */
 cursor: pointer
 }
-.footer-form{
-    display: flex;
-    flex-wrap: wrap;
+.footer-form {
+    display: flex; 
     gap: 24px;
-    flex-direction: column;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 }
 /*--------------------MEDIA-LAPTOP-------------------*/
@@ -1333,8 +1341,19 @@ cursor: pointer
 
 /*--------------------HEADER-------------------*/
 .logo{
-    margin-left: 76px;
+    margin-right: 76px; 
 }
+.nav-link {
+    color:  #2E2F42;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    padding: 24px 0;
+    display: block;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    }
 .adress-list{
 flex-direction: row;
 gap: 40px;
@@ -1444,6 +1463,12 @@ gap: 40px;
         position: relative;
         box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
         transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+        margin-bottom: 48px;
+    }
+    .section-four {
+        padding-top: 120px;
+        padding-bottom: 120px;
+        
     }
 /*--------------------SECTION-FOOTER-------------------*/   
 .footer{
@@ -1505,6 +1530,7 @@ margin-bottom: 16px;
 
 }
 /*--------------------SECTION-FOOTER-SUBSCRIBE-------------------*/  
+
 .footer-input {
     width: 264px;
     height: 40px;
