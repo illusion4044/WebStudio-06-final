@@ -625,7 +625,7 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 margin-bottom: 16px;
 /* margin-left: 112px; */
-justify-content: center;
+justify-content: flex-start;
 }
 
 .social-icons-footer{
@@ -1285,7 +1285,7 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 margin-bottom: 16px;
 /* margin-left: 112px; */
-justify-content: flex-start;
+
 }
 .soc-media-paragraph{
     font-weight: 500;
@@ -1331,7 +1331,7 @@ cursor: pointer
     flex-direction: row;
     flex-wrap: wrap;
 }
-}
+
 /*--------------------MEDIA-LAPTOP-------------------*/
 @media screen and (min-width: 1158px) {
 .container{
