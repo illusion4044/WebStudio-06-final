@@ -309,7 +309,7 @@ margin-bottom: 8px;
 }
 
 .sectiontwo-list{
-    margin-bottom: 72px;
+    /* margin-bottom: 72px; */
 }
 
 .visually-hidden {
@@ -357,7 +357,7 @@ margin-bottom: 8px;
     box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
     text-align: center;
     border-radius: 0px 0px 4px 4px;
-    margin-bottom: 72px;
+    /* margin-bottom: 72px; */
     
 
 }
@@ -496,7 +496,7 @@ width: 100%;
     position: relative;
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
     transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    margin-bottom: 48px;
+    /* margin-bottom: 48px; */
 }
 
 .app-card:hover .app-cover-text{
@@ -1159,7 +1159,13 @@ text-align: left;
     letter-spacing: 0.02em;
     min-width: 356px;
     height: 72px;
-    
+}
+.paragraph-words {
+    color: #434455;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 
 /*--------------------SECTION3-------------------*/
@@ -1232,7 +1238,7 @@ text-align: left;
     display: flex; 
     align-items: baseline ;
     flex-wrap: wrap;  
-    gap: 72px 24px;
+    /* gap: 72px 24px; */
 }
 .logo-paragraph{
     /* margin-right: 120px */
@@ -1409,12 +1415,20 @@ gap: 40px;
     }
     .approaches{
         color:  #2E2F42;
-    text-align: center;
+    text-align: left;
     font-family: Roboto;
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.02em;
+    }
+    .paragraph-words {
+        color: #434455;
+        font-size: 16px;
+        font-weight: 400; 
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        
     }
     
 /*--------------------SECTION3-------------------*/
